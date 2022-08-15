@@ -467,10 +467,9 @@ function setEvents() {
     });
 
     $("#copyButton").unbind().click(async function () {
-        let cookie = cookiesToString.get(cookieList)
+        let name = $('input', '#packageName').val() ?  $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
         debugger
-        let name = 'wzyan2'
-        let isDev = true; // 开启本地模式
+        let isDev = false; // 开启本地模式
         let host = isDev ? 'http://localhost:3000' : 'http://82.157.62.28:3000'
         let query = {
             name,
