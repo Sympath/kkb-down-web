@@ -468,8 +468,9 @@ function setEvents() {
 
     $("#copyButton").unbind().click(async function () {
         let name = $('input', '#packageName').val() ?  $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
+        let isDev = document.querySelector('#isDev').checked;
         debugger
-        let isDev = false; // 开启本地模式
+        // let isDev = false; // 开启本地模式
         let host = isDev ? 'http://localhost:3000' : 'http://82.157.62.28:3000'
         let query = {
             name,
