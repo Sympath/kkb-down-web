@@ -465,9 +465,47 @@ function setEvents() {
             url: urlToOpen
         });
     });
+    // 重传
+    $("#pasteButton").unbind().click(async function () {
+        let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
+        let isDev = document.querySelector('#isDev').checked;
+        debugger
+        // let isDev = false; // 开启本地模式
+        let host = isDev ? 'http://localhost:3000' : 'http://82.157.62.28:3000'
+        let query = {
+            name
+        }
+        if (!isDev) {
+            query.headless = false
+        }
+        try {
+            $.ajax({
+                url: host + "/retry", //这里保存参数信息
+                type: "post", // 提交方式
+                contentType: "application/json",
+                data: JSON.stringify(query),  // data为String类型，必须为 Key/Value 格式。
+                dataType: "json",    // 服务器端返回的数据类型
+                async: false,
+                success: function (data) {
+                    console.log('data: ', data);
+                }
+            });
+        } catch (error) {
+            console.log('失败：', error);
+        }
+        $("#copiedToast").fadeIn(function () {
+            setTimeout(function () {
+                $("#copiedToast").fadeOut();
+            }, 2500);
 
+        });
+        $(this).animate({ backgroundColor: "#B3FFBD" }, 300, function () {
+            $(this).animate({ backgroundColor: "#EDEDED" }, 500);
+        });
+    });
+    // 下载全部
     $("#copyButton").unbind().click(async function () {
-        let name = $('input', '#packageName').val() ?  $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
+        let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
         let isDev = document.querySelector('#isDev').checked;
         debugger
         // let isDev = false; // 开启本地模式
@@ -481,16 +519,16 @@ function setEvents() {
         }
         try {
             $.ajax({
-                url: host+"/start", //这里保存参数信息
+                url: host + "/start", //这里保存参数信息
                 type: "post", // 提交方式
-                contentType : "application/json",
+                contentType: "application/json",
                 data: JSON.stringify(query),  // data为String类型，必须为 Key/Value 格式。
                 dataType: "json",    // 服务器端返回的数据类型
-                async:false,
-                success: function (data) {   
+                async: false,
+                success: function (data) {
                     console.log('data: ', data);
                 }
-                });
+            });
         } catch (error) {
             console.log('失败：', error);
         }
@@ -518,11 +556,7 @@ function setEvents() {
     //     });
     // });
 
-    $("#pasteButton").unbind().click(function () {
-        newCookie = false;
-        pasteCookie = true;
-        swithLayout("paste");
-    });
+
 
     $("#searchButton").unbind().click(function () {
         $("#searchField").focus();
