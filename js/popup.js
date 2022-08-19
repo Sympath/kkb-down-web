@@ -508,13 +508,15 @@ function setEvents() {
     $("#copyButton").unbind().click(async function () {
         let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
         let host = $('#host').val()
+        // 用户自己输入的cookie
+        let cookie = $('#cookie').val()
         // 是否是本地
         let isDev = host === 'localhost'
         debugger
         let apiUrl = `http://${host}:3000`
         let query = {
             name,
-            cookie: cookieList
+            cookie: cookie || cookieList
         }
         if (!isDev) {
             query.headless = false
