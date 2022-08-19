@@ -468,10 +468,11 @@ function setEvents() {
     // 重传
     $("#pasteButton").unbind().click(async function () {
         let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
-        let isDev = document.querySelector('#isDev').checked;
+        let host = $('#host').val()
+        // 是否是本地
+        let isDev = host === 'localhost'
         debugger
-        // let isDev = false; // 开启本地模式
-        let host = isDev ? 'http://localhost:3000' : 'http://82.157.62.28:3000'
+        let apiUrl = `http://${host}:3000`
         let query = {
             name
         }
@@ -480,7 +481,7 @@ function setEvents() {
         }
         try {
             $.ajax({
-                url: host + "/retry", //这里保存参数信息
+                url: apiUrl + "/retry", //这里保存参数信息
                 type: "post", // 提交方式
                 contentType: "application/json",
                 data: JSON.stringify(query),  // data为String类型，必须为 Key/Value 格式。
