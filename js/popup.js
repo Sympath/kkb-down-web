@@ -506,7 +506,9 @@ function setEvents() {
     });
     // 下载全部
     $("#copyButton").unbind().click(async function () {
-        let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
+        // let username = document.getElementsByClassName('username');
+        let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : 'yue'
+        // $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
         let host = $('#host').val()
         // 用户自己输入的cookie
         let cookie = $('#cookie').val()
