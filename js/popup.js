@@ -504,13 +504,29 @@ function setEvents() {
             $(this).animate({ backgroundColor: "#EDEDED" }, 500);
         });
     });
+    // 监听服务器ip的改变事件，如果是自定义选项，则显示输入框
+    $('#host').change(() => {
+        console.log($('#cont select').val());
+        if ($('#host').val() === 'self') {
+            $('#selfHost').css('display', 'block')
+        } else {
+            $('#selfHost').css('display', 'none')
+        }
+    }
+    )
     // 下载全部
     $("#copyButton").unbind().click(async function () {
         // let username = document.getElementsByClassName('username');
         let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : 'yue'
         let courseIds = $('input', '#courseIds').val() ? $('input', '#courseIds').val() : '*'
         // $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
+        debugger
         let host = $('#host').val()
+        // 如果是自定义IP
+        if (host === 'self') {
+            host = $('#selfHost input').val()
+            // w-todo：待添加对ip的校验
+        }
         // 用户自己输入的cookie
         let cookie = $('#cookie').val()
         // 是否是本地
