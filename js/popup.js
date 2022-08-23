@@ -508,6 +508,7 @@ function setEvents() {
     $("#copyButton").unbind().click(async function () {
         // let username = document.getElementsByClassName('username');
         let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : 'yue'
+        let courseIds = $('input', '#courseIds').val() ? $('input', '#courseIds').val() : '*'
         // $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
         let host = $('#host').val()
         // 用户自己输入的cookie
@@ -518,6 +519,7 @@ function setEvents() {
         let apiUrl = `http://${host}:3000`
         let query = {
             name,
+            courseIds: courseIds.split(','),
             cookie: cookie || cookieList
         }
         if (!isDev) {
