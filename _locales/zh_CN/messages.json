@@ -21,7 +21,7 @@
         "message": "分钟"
     },
     "editThis_Rate_ETC": {
-        "message": "为 EditThisCookie 评分"
+        "message": "为 kkb-down 评分"
     },
     "editThis_Blocked_Def": {
         "message": "如果你不想让某个cookie被创建，添加一个过滤规则即可"
@@ -60,13 +60,13 @@
         "message": "全部加入黑名单后清空"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "如果您喜欢EditThisCookie，请在Chrome Web Store上为我们评分"
+        "message": "如果您喜欢kkb-down，请在Chrome Web Store上为我们评分"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "在Cookie名称前显示域名"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "您可以将捐助发送到："
     },
     "editThis_description": {
-        "message": "EditThisCookie是一个cookie管理器。您可以添加，删除，编辑，搜索，锁定和屏蔽cookies！"
+        "message": "kkb-down是一个cookie管理器。您可以添加，删除，编辑，搜索，锁定和屏蔽cookies！"
     },
     "editThis_cookiesModified": {
         "message": "修改的cookies"
@@ -215,7 +215,7 @@
         "message": "飞面大神的福音"
     },
     "editThis_timesUsed": {
-        "message": "您已使用EditThisCookie插件$1次"
+        "message": "您已使用kkb-down插件$1次"
     },
     "editThis_ppBenefit7": {
         "message": "你真壕 =v= 哪日碰面我请你喝啤酒 （啤酒是很重要的哦~）"
@@ -390,8 +390,8 @@
         "message": "取消"
     },
     "editThis_Source_Code_Intro": {
-        "message": "在 $1 上浏览 EditThisCookie 的源码",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "在 $1 上浏览 kkb-down 的源码",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "搜索"

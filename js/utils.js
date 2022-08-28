@@ -188,3 +188,14 @@ function setLoaderVisible(visible) {
         $("#loader-container").hide();
     }
 }
+// 获取当前的tab页对象
+function getCurrentTab() {
+    return new Promise(function (resolve, reject) {
+        chrome.tabs.query({
+            active: true,               // Select active tabs
+            lastFocusedWindow: true     // In the current window
+        }, function (tabs) {
+            resolve(tabs[0]);
+        });
+    });
+}

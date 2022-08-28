@@ -1,6 +1,6 @@
 {
     "editThis_description": {
-        "message": "EditThisCookie is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
+        "message": "kkb-down is a cookie manager. You can add, delete, edit, search, protect and block cookies!"
     },
     "editThis_deleteAll": {
         "message": "Delete all"
@@ -186,7 +186,7 @@
         "message": "Support me"
     },
     "editThis_support_etc": {
-        "message": "Support EditThisCookie"
+        "message": "Support kkb-down"
     },
     "editThis_noBlockAdded": {
         "message": "No block rules added"
@@ -216,7 +216,7 @@
         "message": "We guarantee no personal data is ever shared!"
     },
     "editThis_timesUsed": {
-        "message": "You used 'EditThisCookie' $1 times"
+        "message": "You used 'kkb-down' $1 times"
     },
     "editThis_statsSince": {
         "message": "Cookie statistics since: $1"
@@ -262,7 +262,7 @@
         "description": "It will read: Support us using PayPal. Move the slider to change the amount"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_iWantDonate": {
@@ -282,7 +282,7 @@
         "message": "You'll receive a thank you email"
     },
     "editThis_ppBenefit4": {
-        "message": "You can name any bug that annoys you in EditThisCookie and I'll fix it super-fast!"
+        "message": "You can name any bug that annoys you in kkb-down and I'll fix it super-fast!"
     },
     "editThis_ppBenefit5": {
         "message": "You can name a feature you want to be implemented and I'll make it true! (just don't ask for the impossible :P )"
@@ -378,14 +378,14 @@
         "message": "Source code"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Check EditThisCookie's source code on $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Check kkb-down's source code on $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_Rate_ETC": {
-        "message": "Rate EditThisCookie"
+        "message": "Rate kkb-down"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "If you like EditThisCookie, leave a rating on the Chrome Web Store"
+        "message": "If you like kkb-down, leave a rating on the Chrome Web Store"
     },
     "editThis_Show_Christmas_Icon": {
         "message": "Show the Santa's hat icon"

@@ -21,7 +21,7 @@
         "message": "Minutės"
     },
     "editThis_Rate_ETC": {
-        "message": "Įvertinkite EditThisCookie"
+        "message": "Įvertinkite kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Jeigu nori programiniu būdu ištrinti slapuką, kai jis kiekvieną kartą yra sukuriamas, pridėk filtrą ir tai tavęs daugiau nebeerzins"
@@ -60,13 +60,13 @@
         "message": "Užblokuoti ir viską ištrinti"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Jeigu jums patinka EditThisCookie, palikite įvertinimą Chrome Web parduotuvėje"
+        "message": "Jeigu jums patinka kkb-down, palikite įvertinimą Chrome Web parduotuvėje"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Rodyti domeną prieš slapuko pavadinimą"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Galite siųsti paramą:"
     },
     "editThis_description": {
-        "message": "EditThisCookie yra slapukų valdytojas. Gali pridėti, ištrinti, keisti, ieškoti, apsaugoti ir blokuoti slapukus!"
+        "message": "kkb-down yra slapukų valdytojas. Gali pridėti, ištrinti, keisti, ieškoti, apsaugoti ir blokuoti slapukus!"
     },
     "editThis_cookiesModified": {
         "message": "Pakeisti slapukai"
@@ -215,7 +215,7 @@
         "message": "The Gospel of the Flying Spaghetti Monster"
     },
     "editThis_timesUsed": {
-        "message": "Naudojai 'EditThisCookie' $1 kartus"
+        "message": "Naudojai 'kkb-down' $1 kartus"
     },
     "editThis_ppBenefit7": {
         "message": "Tu esi labai dosnus! Jeigu mes susitiksime aš tau duosiu kelis alaus (ei, alus yra svarbus)"
@@ -227,7 +227,7 @@
         "message": "Gali įvardinti funkciją, kurią tu norėtum turėti ir aš ją įgyvendinsiu (tik neprašyk neįmanomo :P )"
     },
     "editThis_ppBenefit4": {
-        "message": "Gali pranešti apie bet kokią EditThisCookie klaidą, kuri tave erzina ir aš ją pataisysiu labai greitai"
+        "message": "Gali pranešti apie bet kokią kkb-down klaidą, kuri tave erzina ir aš ją pataisysiu labai greitai"
     },
     "editThis_ppBenefit3": {
         "message": "Gausi padėkos laišką"
@@ -356,7 +356,7 @@
         "message": "Reklamos"
     },
     "editThis_support_etc": {
-        "message": "Paremti EditThisCookie"
+        "message": "Paremti kkb-down"
     },
     "editThis_getting_started": {
         "message": "Pradžia"
@@ -390,8 +390,8 @@
         "message": "Atšaukti"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Žiūrėti EditThisCookie kodą $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Žiūrėti kkb-down kodą $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Ieškoti"

@@ -5,7 +5,11 @@ var newCookie = false;
 var pasteCookie = false;
 var currentLayout = "none";
 var lastInput = "";
-
+var currentBehavior = 'down-all'
+var bg = chrome.extension.getBackgroundPage();
+window.bg = bg
+var courseInfo = {};
+console.log(bg);
 $.fx.speeds._default = 200;
 // 添加路由参数
 function addQuery(url, data) {//定义拼接字符串函数
@@ -14,7 +18,7 @@ function addQuery(url, data) {//定义拼接字符串函数
         let value = data[k] !== undefined ? data[k] : ''
         paramsStr += `&${k}=${encodeURIComponent(value)}`
     }
-    debugger
+
     return (url.indexOf('?') < 0 ? `${url}?${paramsStr.substring(1)}` : `${url}&${paramsStr.substring(1)}`) //去调前面的'&'符号
 }
 
@@ -33,24 +37,17 @@ jQuery(document).ready(function () {
     }, 100);
 });
 
-function start() {
+async function start() {
     setLoaderVisible(true);
 
     var arguments = getUrlVars();
     if (arguments.url === undefined) {
-        chrome.tabs.query(
-            {
-                active: true,
-                lastFocusedWindow: true
-            },
-            function (tabs) {
-                let currentTabURL = tabs[0].url;
-                currentTabID = tabs[0].id;
-                $('input', '#cookieSearchCondition').val(currentTabURL);
-                document.title = document.title + "-" + currentTabURL;
-                doSearch(false);
-            }
-        );
+        let currentTab = await getCurrentTab();
+        let currentTabURL = currentTab.url;
+        currentTabID = currentTab.id;
+        $('input', '#cookieSearchCondition').val(currentTabURL);
+        document.title = document.title + "-" + currentTabURL;
+        doSearch(false);
     } else {
         var url = decodeURI(arguments.url);
         currentTabID = parseInt(decodeURI(arguments.id));
@@ -76,15 +73,6 @@ function doSearch(isSeparateWindow) {
         filter.setDomain(url);
     }
     createList(filter.getFilter(), isSeparateWindow);
-}
-
-function submit(currentTabID) {
-    if (newCookie)
-        submitNew(currentTabID);
-    else if (pasteCookie)
-        importCookies();
-    else
-        submitAll(currentTabID);
 }
 
 function submitAll(currentTabID) {
@@ -354,7 +342,7 @@ function importCookies() {
 
 function setEvents() {
     $("#submitButton:first-child").unbind().click(function () {
-        submit(currentTabID);
+        submit();
     });
     if (cookieList.length > 0) {
         $("#submitDiv").show();
@@ -471,7 +459,7 @@ function setEvents() {
         let host = $('#host').val()
         // 是否是本地
         let isDev = host === 'localhost'
-        debugger
+
         let apiUrl = `http://${host}:3000`
         let query = {
             name
@@ -514,13 +502,53 @@ function setEvents() {
         }
     }
     )
+    // 监听当前行为类型的改变事件
+    $('#currentBehavior').change(() => {
+        currentBehavior = $('#currentBehavior').val()
+        if (currentBehavior === 'down-courseIds') {
+            // 让用户去输入要下的课程id列表
+            $('#courseIds').css('display', 'block')
+        } else {
+            $('#courseIds').css('display', 'none')
+        }
+        if (currentBehavior === 'down-single') {
+            // 让用户去输入要下的课程id列表
+            $('#down-single').css('display', 'block')
+            $('#bypyFullDir').val(bg.getBypyChapterPath())
+        } else {
+            $('#down-single').css('display', 'none')
+        }
+    }
+    )
+    function submit() {
+        switch (currentBehavior) {
+            case 'down-all':
+                downAll();
+                break;
+            case 'down-single':
+                downSingle();
+                break;
+            // case 'get-courseInfo':
+            //     getCourseInfo();
+            //     break;
+            case 'down-courseIds':
+                downCourseIds();
+                break;
+
+            default:
+                break;
+        }
+    }
     // 下载全部
-    $("#copyButton").unbind().click(async function () {
+    async function downAll() {
         // let username = document.getElementsByClassName('username');
-        let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : 'yue'
-        let courseIds = $('input', '#courseIds').val() ? $('input', '#courseIds').val() : '*'
+        let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : ''
+        if (!name) {
+            alert('请输入你的包名，用以找管理员同学要资料')
+            return
+        }
         // $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
-        debugger
+
         let host = $('#host').val()
         // 如果是自定义IP
         if (host === 'self') {
@@ -531,11 +559,10 @@ function setEvents() {
         let cookie = $('#cookie').val()
         // 是否是本地
         let isDev = host === 'localhost'
-        debugger
         let apiUrl = `http://${host}:3000`
         let query = {
             name,
-            courseIds: courseIds.split(','),
+            courseIds: '*',
             cookie: cookie || cookieList
         }
         if (!isDev) {
@@ -565,23 +592,131 @@ function setEvents() {
         $(this).animate({ backgroundColor: "#B3FFBD" }, 300, function () {
             $(this).animate({ backgroundColor: "#EDEDED" }, 500);
         });
-    });
-    // $("#copyButton").unbind().click(function () {
-    //     copyToClipboard(cookiesToString.get(cookieList));
-    //     data.nCookiesExported += cookieList.length;
-    //     $("#copiedToast").fadeIn(function () {
-    //         setTimeout(function () {
-    //             $("#copiedToast").fadeOut();
-    //         }, 2500);
+    }
+    // 下载指定课程
+    async function downCourseIds() {
+        // let username = document.getElementsByClassName('username');
+        let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : ''
+        if (!name) {
+            alert('请输入你的包名，用以找管理员同学要资料')
+            return
+        }
+        let courseIds = $('input', '#courseIds').val()
+        if (!courseIds) {
+            alert('请输入课程id列表，如1,2,3')
+            return
+        }
+        // $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
 
-    //     });
-    //     $(this).animate({ backgroundColor: "#B3FFBD" }, 300, function () {
-    //         $(this).animate({ backgroundColor: "#EDEDED" }, 500);
-    //     });
-    // });
+        let host = $('#host').val()
+        // 如果是自定义IP
+        if (host === 'self') {
+            host = $('#selfHost input').val()
+            // w-todo：待添加对ip的校验
+        }
+        // 用户自己输入的cookie
+        let cookie = $('#cookie').val()
+        // 是否是本地
+        let isDev = host === 'localhost'
+        let apiUrl = `http://${host}:3000`
+        let query = {
+            name,
+            courseIds: courseIds.split(',').map(i => Number(i)),
+            cookie: cookie || cookieList
+        }
+        if (!isDev) {
+            query.headless = false
+        }
+        try {
+            $.ajax({
+                url: apiUrl + "/start", //这里保存参数信息
+                type: "post", // 提交方式
+                contentType: "application/json",
+                data: JSON.stringify(query),  // data为String类型，必须为 Key/Value 格式。
+                dataType: "json",    // 服务器端返回的数据类型
+                async: false,
+                success: function (data) {
+                    console.log('data: ', data);
+                }
+            });
+        } catch (error) {
+            console.log('失败：', error);
+        }
+        $("#copiedToast").fadeIn(function () {
+            setTimeout(function () {
+                $("#copiedToast").fadeOut();
+            }, 2500);
 
+        });
+        $(this).animate({ backgroundColor: "#B3FFBD" }, 300, function () {
+            $(this).animate({ backgroundColor: "#EDEDED" }, 500);
+        });
+    }
+    // 下载当前课程
+    async function downSingle() {
+        // let username = document.getElementsByClassName('username');
+        // 获取当前下载课程在云盘上的相对路径（相对用户包名）
+        // m3u8Url courseName bypyFullDir bypyDir
+        let bypyFullDir = $('#bypyFullDir').val();
 
+        let courseName = bg.getCourseName()
+        let bypyDir = $('input', '#packageName').val() ? $('input', '#packageName').val() : ''
+        if (!bypyDir) {
+            alert('bypyDir can not empty')
+            return
+        }
+        let m3u8Url = $('#m3u8').val()
+        if (!m3u8Url) {
+            alert('m3u8Url can not empty')
+            return
+        }
+        // let courseName = $('.title-catalogue span')[0].innerHTML.replace(/\s/g, '').split('</span>').pop(); // 视频名称
+        // 课程名/序号.章/1.节名（一般同章）
+        // let bypyFullDir = `courseInfo.courseName`; $('.bypyFullDir').val(); // 云盘地址 推测生成一个，支持修改
 
+        let host = $('#host').val()
+        // 如果是自定义IP
+        if (host === 'self') {
+            host = $('#selfHost input').val()
+            // w-todo：待添加对ip的校验
+        }
+        // 用户自己输入的cookie
+        let cookie = $('#cookie').val()
+        // 是否是本地
+        let isDev = host === 'localhost'
+        let apiUrl = `http://${host}:3000`
+        let query = {
+            m3u8Url, courseName, bypyFullDir, bypyDir,
+            cookie: cookie || cookieList
+        }
+        if (!isDev) {
+            query.headless = false
+        }
+        try {
+            $.ajax({
+                url: apiUrl + "/down-single", //这里保存参数信息
+                type: "post", // 提交方式
+                contentType: "application/json",
+                data: JSON.stringify(query),  // data为String类型，必须为 Key/Value 格式。
+                dataType: "json",    // 服务器端返回的数据类型
+                async: false,
+                success: function (data) {
+                    console.log('data: ', data);
+                }
+            });
+        } catch (error) {
+            console.log('失败：', error);
+        }
+        $("#copiedToast").fadeIn(function () {
+            setTimeout(function () {
+                $("#copiedToast").fadeOut();
+            }, 2500);
+
+        });
+        $(this).animate({ backgroundColor: "#B3FFBD" }, 300, function () {
+            $(this).animate({ backgroundColor: "#EDEDED" }, 500);
+        });
+    }
     $("#searchButton").unbind().click(function () {
         $("#searchField").focus();
         $("#searchField").fadeIn("normal", function () { $("#searchField").focus(); });
@@ -814,6 +949,18 @@ function swithLayout(newLayout) {
         $("#noCookies").slideDown();
         $("#cookiesList").slideUp();
         $("#submitDiv").hide();
+    } else if (newLayout === 'singleDown') {
+        $(".commands-table").first().animate({ opacity: 0 }, function () {
+            $("#deleteAllButton").hide();
+            $("#flagAllButton").hide();
+            $("#addCookieButton").hide();
+            $("#backToList").show();
+            $("#copyButton").hide();
+            $("#pasteButton").hide();
+            $("#searchButton").hide();
+            $(".commands-table").first().animate({ opacity: 1 });
+        });
+
     } else {
         $(".commands-table").first().animate({ opacity: 0 }, function () {
             $("#deleteAllButton").hide();
@@ -845,11 +992,11 @@ function swithLayout(newLayout) {
             $(".value", "#new").focus();
         } else if (newLayout === "new") {
             $("#newCookie").slideDown();
-            $("#pasteCookie").slideUp();
-            $("#cookieFilter").slideUp();
-            $("#submitFiltersButton").slideUp();
+            // $("#pasteCookie").slideUp();
+            // $("#cookieFilter").slideUp();
+            // $("#submitFiltersButton").slideUp();
             $("#submitDiv").slideDown();
-            $('#newCookie input.name').focus();
+            // $('#newCookie input.name').focus();
         }
     }
 }

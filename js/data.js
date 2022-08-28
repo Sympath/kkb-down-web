@@ -22,7 +22,7 @@ var preferences_template = {
     "showFlagAndDeleteAll": {
         "default_value": false
     },
-    // Show an option to open EditThisCookie as a separate tab in the context menu
+    // Show an option to open kkb-down as a separate tab in the context menu
     "showContextMenu": {
         "default_value": true
     },

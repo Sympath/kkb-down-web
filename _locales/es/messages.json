@@ -21,7 +21,7 @@
         "message": "Minutos"
     },
     "editThis_Rate_ETC": {
-        "message": "Califica EditThisCookie"
+        "message": "Califica kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Si quieres eliminar una cookie automáticamente cada vez que se cree, añade un filtro y no te volverá a molestar"
@@ -60,13 +60,13 @@
         "message": "Marcar y eliminar todas"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Si te gusta EditThisCookie, deja una valoración en la Chrome Web Store"
+        "message": "Si te gusta kkb-down, deja una valoración en la Chrome Web Store"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Muestra el dominio antes del nombre del cookie"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Puedes enviar donaciones a:"
     },
     "editThis_description": {
-        "message": "EditThisCookie es un gestor de cookies. ¡Puedes añadir, eliminar, editar, buscar, proteger y bloquear cookies!"
+        "message": "kkb-down es un gestor de cookies. ¡Puedes añadir, eliminar, editar, buscar, proteger y bloquear cookies!"
     },
     "editThis_cookiesModified": {
         "message": "Cookies modificadas"
@@ -215,7 +215,7 @@
         "message": "El evangelio del Monstruo Espagueti Volador"
     },
     "editThis_timesUsed": {
-        "message": "Has usado 'EditThisCookie' $1 veces"
+        "message": "Has usado 'kkb-down' $1 veces"
     },
     "editThis_ppBenefit7": {
         "message": "¡Eres muy generoso! Si alguna vez nos encontramos te invitaré a unas cervezas (hey, la cerveza es importante)"
@@ -227,7 +227,7 @@
         "message": "¡Puedes decirme una función que quieres que implante y lo haré realidad! (simplemente no pidas lo imposible :P)"
     },
     "editThis_ppBenefit4": {
-        "message": "¡Puedes decirme cualquier bug que te moleste en 'EditThisCookie' y lo arreglaré super-rápido!"
+        "message": "¡Puedes decirme cualquier bug que te moleste en 'kkb-down' y lo arreglaré super-rápido!"
     },
     "editThis_ppBenefit3": {
         "message": "Recibirás un correo electrónico de agradecimiento"
@@ -356,7 +356,7 @@
         "message": "Anuncios"
     },
     "editThis_support_etc": {
-        "message": "Ayuda a EditThisCookie"
+        "message": "Ayuda a kkb-down"
     },
     "editThis_getting_started": {
         "message": "Cómo empezar"
@@ -390,8 +390,8 @@
         "message": "Cancelar"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Encuentra el código fuente de EditThisCookie en $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Encuentra el código fuente de kkb-down en $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Buscar"

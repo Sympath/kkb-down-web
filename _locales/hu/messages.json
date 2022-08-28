@@ -21,7 +21,7 @@
         "message": "Perc"
     },
     "editThis_Rate_ETC": {
-        "message": "Értékeld az EditThisCookie-t"
+        "message": "Értékeld az kkb-down-t"
     },
     "editThis_Blocked_Def": {
         "message": "Ha automatikusan törölni akarsz egy bizonyos sütit, állíts rá egy filtert. Többé nem fog zavarni"
@@ -60,13 +60,13 @@
         "message": "Tiltás és összes törlése"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Ha tettszik az EditThisCookie, akkor értékeld a Chrome Webáruházban"
+        "message": "Ha tettszik az kkb-down, akkor értékeld a Chrome Webáruházban"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Domain mutatása a sütik neve előtt"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Támogass minket:"
     },
     "editThis_description": {
-        "message": "EditThisCookie a cookie menedzser. Felvehet, törölhet, szerkeszthet, kereshet, védelhet és blokkolhat cookie-kat!"
+        "message": "kkb-down a cookie menedzser. Felvehet, törölhet, szerkeszthet, kereshet, védelhet és blokkolhat cookie-kat!"
     },
     "editThis_cookiesModified": {
         "message": "Sütik módosítva"
@@ -356,7 +356,7 @@
         "message": "Hirdetések"
     },
     "editThis_support_etc": {
-        "message": "EditThisCookie támogatási lap"
+        "message": "kkb-down támogatási lap"
     },
     "editThis_getting_started": {
         "message": "Első lépések"
@@ -390,8 +390,8 @@
         "message": "Mégse"
     },
     "editThis_Source_Code_Intro": {
-        "message": "EditThisCookie forráskódjának megtekintése itt: $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "kkb-down forráskódjának megtekintése itt: $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Keresés"

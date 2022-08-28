@@ -21,7 +21,7 @@
         "message": "Λεπτά"
     },
     "editThis_Rate_ETC": {
-        "message": "Βαθμολόγησε το EditThisCookie"
+        "message": "Βαθμολόγησε το kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Εάν θέλεις να διαγράψεις προγραμματιστικά ένα cookie κάθε φορά που δημιουργείται, πρόσθεσε ένα φίλτρο και δε θα σε ενοχλήσει ξανά"
@@ -60,13 +60,13 @@
         "message": "Σημείωση και διαγραφή όλων."
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Εάν σου αρέσει το EditThisCookie, δώσε τη βαθμολογία σου στο Chrome Web Store"
+        "message": "Εάν σου αρέσει το kkb-down, δώσε τη βαθμολογία σου στο Chrome Web Store"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Δείξε το domain πριν από το όνομα του cookie"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Μπορείτε να στείλετε συνεισφορές προς:"
     },
     "editThis_description": {
-        "message": "Με το EditThisCookie μπορείς να προσθέσεις, διαγράψεις, επεξεργαστείς, αναζητήσεις,  προστατέψεις και αποκλείσεις Cookies!"
+        "message": "Με το kkb-down μπορείς να προσθέσεις, διαγράψεις, επεξεργαστείς, αναζητήσεις,  προστατέψεις και αποκλείσεις Cookies!"
     },
     "editThis_cookiesModified": {
         "message": "Τα Cookies επεξεργάστηκαν"
@@ -215,7 +215,7 @@
         "message": "The Gospel of the Flying Spaghetti Monster"
     },
     "editThis_timesUsed": {
-        "message": "Έχεις χρησιμοποιήσει το EditThisCookie $1 φορές"
+        "message": "Έχεις χρησιμοποιήσει το kkb-down $1 φορές"
     },
     "editThis_ppBenefit7": {
         "message": "Είσαι πολύ γενναιόδωρος! Αν συναντηθούμε ποτέ θα σε κεράσω μερικές μπύρες (έι, η μπύρα είναι σημαντική)"
@@ -227,7 +227,7 @@
         "message": "Μπορείς να ζητήσεις μια καινούρια δυνατότητα που θα ήθελες να συμπεριλάβουμε και εγώ θα την κάνω! (μόνο μη ζητήσεις κάτι αδύνατο :P)"
     },
     "editThis_ppBenefit4": {
-        "message": "Μπορείς να αναφέρεις ένα πρόβλημα που σε ενοχλεί στο EditThisCookie και θα το διορθώσω έξτρα γρήγορα!"
+        "message": "Μπορείς να αναφέρεις ένα πρόβλημα που σε ενοχλεί στο kkb-down και θα το διορθώσω έξτρα γρήγορα!"
     },
     "editThis_ppBenefit3": {
         "message": "Θα λάβεις ένα ευχαριστήριο email"
@@ -356,7 +356,7 @@
         "message": "Διαφημίσεις"
     },
     "editThis_support_etc": {
-        "message": "Supporta EditThisCookie"
+        "message": "Supporta kkb-down"
     },
     "editThis_getting_started": {
         "message": "Ξεκινώντας"
@@ -390,8 +390,8 @@
         "message": "Ακύρωση"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Δείτε τον πηγαίο κώδικα του EditThisCookie στο $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Δείτε τον πηγαίο κώδικα του kkb-down στο $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Αναζήτηση"

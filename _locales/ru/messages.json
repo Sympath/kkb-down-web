@@ -21,7 +21,7 @@
         "message": "Минуты"
     },
     "editThis_Rate_ETC": {
-        "message": "Оцените EditThisCookie"
+        "message": "Оцените kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Если Вы хотите автоматически удалять определённый Cookie каждый раз, когда он создаётся, добавьте фильтр - и этот Cookie больше не будет беспокоить Вас."
@@ -60,13 +60,13 @@
         "message": "Пометить и удалить все"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Если Вам нравится EditThisCookie, поставьте оценку на Chrome Web Store"
+        "message": "Если Вам нравится kkb-down, поставьте оценку на Chrome Web Store"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Показывать домен перед названием cookie"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Ты можешь отправить помощь через:"
     },
     "editThis_description": {
-        "message": "EditThisCookie - это менеджер cookie. Вы можете добавлять, удалять, изменять, искать, защищать и блокировать cookie!"
+        "message": "kkb-down - это менеджер cookie. Вы можете добавлять, удалять, изменять, искать, защищать и блокировать cookie!"
     },
     "editThis_cookiesModified": {
         "message": "Cookie отредактированы"
@@ -215,7 +215,7 @@
         "message": "Евангелие от Летающего Макаронного Монстра"
     },
     "editThis_timesUsed": {
-        "message": "Вы использовали EditThisCookie $1 раз(а)"
+        "message": "Вы использовали kkb-down $1 раз(а)"
     },
     "editThis_ppBenefit7": {
         "message": "Вы очень щедры! Если мы когда-нибудь встретимся, я угощу вас несколькими кружками пива (пиво - это круто)"
@@ -227,7 +227,7 @@
         "message": "Предложите функцию, которую вы бы хотели видеть, и я реализую ее! (только не просите невозможного :P)"
     },
     "editThis_ppBenefit4": {
-        "message": "Назовите баг, который вас раздражает в EditThisCookie, и я его исправлю супер-быстро!"
+        "message": "Назовите баг, который вас раздражает в kkb-down, и я его исправлю супер-быстро!"
     },
     "editThis_ppBenefit3": {
         "message": "Ты получишь благодарственное письмо"
@@ -356,7 +356,7 @@
         "message": "Реклама"
     },
     "editThis_support_etc": {
-        "message": "Поддержать EditThisCookie"
+        "message": "Поддержать kkb-down"
     },
     "editThis_getting_started": {
         "message": "Приступая к работе"
@@ -390,8 +390,8 @@
         "message": "Отмена"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Получить исходный код EditThisCookie's на $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Получить исходный код kkb-down's на $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Поиск"

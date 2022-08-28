@@ -21,7 +21,7 @@
         "message": "Minutos"
     },
     "editThis_Rate_ETC": {
-        "message": "Avalia a ferramenta EditThisCookie"
+        "message": "Avalia a ferramenta kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Se quiseres apagar automaticamente um cookie sempre que ele é criado, adiciona um filtro e ele não te volta a incomodar! "
@@ -60,13 +60,13 @@
         "message": "Bloquear e apagar tudo"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Se gostaste da ferramenta EditThisCookie, avalia-a na Web Store do Chrome"
+        "message": "Se gostaste da ferramenta kkb-down, avalia-a na Web Store do Chrome"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Mostra o domínio antes do nome do cookie"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Podes enviar doações para:"
     },
     "editThis_description": {
-        "message": "EditThisCookie é um editor de cookies. Podes adicionar, apagar, editar, procurar, proteger e bloquear cookies!"
+        "message": "kkb-down é um editor de cookies. Podes adicionar, apagar, editar, procurar, proteger e bloquear cookies!"
     },
     "editThis_cookiesModified": {
         "message": "Cookies modificados"
@@ -215,7 +215,7 @@
         "message": "O Evangelho do Monstro Esparguete Voador"
     },
     "editThis_timesUsed": {
-        "message": "Tu usaste o 'EditThisCookie' $1 vezes"
+        "message": "Tu usaste o 'kkb-down' $1 vezes"
     },
     "editThis_ppBenefit7": {
         "message": "Tu és muito generoso! se nos encontrarmos eu pago-te umas cervejas (cervejas são importantes)"
@@ -356,7 +356,7 @@
         "message": "Anúncios"
     },
     "editThis_support_etc": {
-        "message": "Ajuda o EditThisCookie"
+        "message": "Ajuda o kkb-down"
     },
     "editThis_getting_started": {
         "message": "Início"
@@ -390,8 +390,8 @@
         "message": "Cancelar"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Vê o código fonte do EditThisCookie por $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Vê o código fonte do kkb-down por $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Procurar"

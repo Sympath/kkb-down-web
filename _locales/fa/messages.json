@@ -66,7 +66,7 @@
         "message": "دامین سایت را قبل از اسم کوکی نشون بده "
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -391,7 +391,7 @@
     },
     "editThis_Source_Code_Intro": {
         "message": "کد های این افزونه را در $1 مشاهده کنید",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "جستجو"

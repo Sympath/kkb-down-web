@@ -21,7 +21,7 @@
         "message": "Mintuer"
     },
     "editThis_Rate_ETC": {
-        "message": "Betygsätt EditThisCookie"
+        "message": "Betygsätt kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Om du automatiskt vill ta bort en cookie varje gång den är skapad, lägg till ett filter så kommer den inte att irritera dig längre."
@@ -60,13 +60,13 @@
         "message": "Flagga och ta bort alla"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Om du tycker om EditThisCookie, lämna ett betyg på Chrome Web Store"
+        "message": "Om du tycker om kkb-down, lämna ett betyg på Chrome Web Store"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Visa domän före cookie-namnet"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Du kan skicka donationer till:"
     },
     "editThis_description": {
-        "message": "EditThisCookie är en cookie hanterare. Du kan lägga till, ta bort, ändra, söka, skydda och blocka cookies!"
+        "message": "kkb-down är en cookie hanterare. Du kan lägga till, ta bort, ändra, söka, skydda och blocka cookies!"
     },
     "editThis_cookiesModified": {
         "message": "Modifierade Cookies"
@@ -215,7 +215,7 @@
         "message": "Evangeliet om det flygande Spaghetti Monstret"
     },
     "editThis_timesUsed": {
-        "message": "Du använde EditThisCookie $1 times"
+        "message": "Du använde kkb-down $1 times"
     },
     "editThis_ppBenefit7": {
         "message": "Du är väldigt generös! Om vi någonsin möts, så ger jag dig några öl (hörru, öl är viktigt)"
@@ -227,7 +227,7 @@
         "message": "Du kan namnge något du vill ha inlagt och jag ser till att det händer! (fråga bara inte om något omöjligt :P )"
     },
     "editThis_ppBenefit4": {
-        "message": "Du kan säga vilken bugg som helst, som irriterar dig i EditThisCookie, så kommer jag att fixa det super snabbt!"
+        "message": "Du kan säga vilken bugg som helst, som irriterar dig i kkb-down, så kommer jag att fixa det super snabbt!"
     },
     "editThis_ppBenefit3": {
         "message": "Du kommer att få ett tack-mail"
@@ -356,7 +356,7 @@
         "message": "Annonser"
     },
     "editThis_support_etc": {
-        "message": "Stöd EditThisCookie"
+        "message": "Stöd kkb-down"
     },
     "editThis_getting_started": {
         "message": "Kom igång"
@@ -390,8 +390,8 @@
         "message": "Avbryt"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Ändra EditThisCookie källkod på $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Ändra kkb-down källkod på $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Sök"

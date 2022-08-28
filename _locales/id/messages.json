@@ -21,7 +21,7 @@
         "message": "Menit"
     },
     "editThis_Rate_ETC": {
-        "message": "Beri peringkat EditThisCookie"
+        "message": "Beri peringkat kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Jika Anda ingin pemrograman hapus kuki otomatis, tambahkan filter dan itu tidak akan mengganggu Anda lagi."
@@ -60,13 +60,13 @@
         "message": "Blokir dan hapus semua"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Jika Anda suka EditThisCookie, tinggalkan penilaian Anda pada Chrome Web Store"
+        "message": "Jika Anda suka kkb-down, tinggalkan penilaian Anda pada Chrome Web Store"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Tampilkan domain sebelum nama kuki"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Anda dapat mengirim donasi ke:"
     },
     "editThis_description": {
-        "message": "EditThisCookie adalah pengelola kuki. Anda dapat menambah, menghapus, mengedit, mencari, melindungi, dan memblokir kuki!"
+        "message": "kkb-down adalah pengelola kuki. Anda dapat menambah, menghapus, mengedit, mencari, melindungi, dan memblokir kuki!"
     },
     "editThis_cookiesModified": {
         "message": "Kuki termodifikasi"
@@ -215,7 +215,7 @@
         "message": "Monster Spaghetti Injil terbang"
     },
     "editThis_timesUsed": {
-        "message": "Kamu telah menggunakan 'EditThisCookie' $1 kali"
+        "message": "Kamu telah menggunakan 'kkb-down' $1 kali"
     },
     "editThis_ppBenefit7": {
         "message": "Anda sangat murah hati! Jika kita bertemu, Aku akan memberi Anda beberapa gelas bir (hey, bir itu penting)"
@@ -227,7 +227,7 @@
         "message": "Anda dapat memberi nama fitur yang Anda inginkan untuk diimplementasikan dan aku akan mengabulkannya! (jangan tanyakan hal yang mustahil :P )"
     },
     "editThis_ppBenefit4": {
-        "message": "Anda dapat memberi nama pada setiap bug yang mengganggu Anda pada EditThisCookie dan aku akan memperbaikinya dengan segera!"
+        "message": "Anda dapat memberi nama pada setiap bug yang mengganggu Anda pada kkb-down dan aku akan memperbaikinya dengan segera!"
     },
     "editThis_ppBenefit3": {
         "message": "Anda akan menerima surel terima kasih"
@@ -356,7 +356,7 @@
         "message": "Iklan"
     },
     "editThis_support_etc": {
-        "message": "Dukung EditThisCookie"
+        "message": "Dukung kkb-down"
     },
     "editThis_getting_started": {
         "message": "Persiapan"
@@ -390,8 +390,8 @@
         "message": "Batal"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Periksa kode sumber EditThisCookie's di $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Periksa kode sumber kkb-down's di $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Pencarian"

@@ -21,7 +21,7 @@
         "message": "דקות"
     },
     "editThis_Rate_ETC": {
-        "message": "דרג את EditThisCookie"
+        "message": "דרג את kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "אם ברצונך למחוק באמצעות תכנות עוגייה בכל פעם שהיא נוצרת, הוסף סינון ולא נשאל אותך יותר לגבי העוגיה"
@@ -60,13 +60,13 @@
         "message": "חסום ומחק הכל"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "אם אתה אוהב את EditThisCookie, הוסף דירוג בחנות האינטרנט של Chrome"
+        "message": "אם אתה אוהב את kkb-down, הוסף דירוג בחנות האינטרנט של Chrome"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "הצג את שם הדומיין לפני שם העוגיה"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "אפשר לשלוח תרומות ל:"
     },
     "editThis_description": {
-        "message": "EditThisCookie הוא מנהל ״עוגיות״ בדפדפן. באפשרותך להוסיף, למחוק, לערוך, לחפש, להגן ולחסום עוגיות!"
+        "message": "kkb-down הוא מנהל ״עוגיות״ בדפדפן. באפשרותך להוסיף, למחוק, לערוך, לחפש, להגן ולחסום עוגיות!"
     },
     "editThis_cookiesModified": {
         "message": "עוגיות השתנו"
@@ -215,7 +215,7 @@
         "message": "הגוספל של מפלצת הספגטי המעופפת"
     },
     "editThis_timesUsed": {
-        "message": "השתמשת ב'EditThisCookie' $1 פעמים"
+        "message": "השתמשת ב'kkb-down' $1 פעמים"
     },
     "editThis_ppBenefit7": {
         "message": "אתה מאוד נדיב! אם אי פעם נפגש אביא לך כמה בירות (היי, הבירה חשובה)"
@@ -227,7 +227,7 @@
         "message": "אתה יכול לתת שם לפי׳צר שאתה רוצה לראות מיושם ואני אעשה את זה! (פשוט לא לבקש את הבלתי אפשרי: P)"
     },
     "editThis_ppBenefit4": {
-        "message": "אפשר למנות כל באג אשר מפריע לך בEditThisCookie ואתקן אותו במהירות האפשרית!"
+        "message": "אפשר למנות כל באג אשר מפריע לך בkkb-down ואתקן אותו במהירות האפשרית!"
     },
     "editThis_ppBenefit3": {
         "message": "תקבל מכתב תודה בדוא״ל"
@@ -356,7 +356,7 @@
         "message": "פרסומות"
     },
     "editThis_support_etc": {
-        "message": "תמוך בEditThisCookie"
+        "message": "תמוך בkkb-down"
     },
     "editThis_getting_started": {
         "message": "התחל פה"
@@ -390,8 +390,8 @@
         "message": "ביטול"
     },
     "editThis_Source_Code_Intro": {
-        "message": "בדוק את קוד המקור של EditThisCookie ב $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "בדוק את קוד המקור של kkb-down ב $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "חיפוש"

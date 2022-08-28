@@ -21,7 +21,7 @@
         "message": "Минути"
     },
     "editThis_Rate_ETC": {
-        "message": "Оцените EditThisCookie"
+        "message": "Оцените kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Ако желите да аутоматски обришете колачић сваки пут када се направи, додајте филтер и више вам неће сметати."
@@ -60,13 +60,13 @@
         "message": "Блокирај и избриши све"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Ако вам се свиђа EditThisCookie, оставите оцену на Chrome веб-продавници"
+        "message": "Ако вам се свиђа kkb-down, оставите оцену на Chrome веб-продавници"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Прикажи домен испред назива колачића"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -215,7 +215,7 @@
         "message": "The Gospel of the Flying Spaghetti Monster"
     },
     "editThis_timesUsed": {
-        "message": "Користили сте 'EditThisCookie' $1 пута"
+        "message": "Користили сте 'kkb-down' $1 пута"
     },
     "editThis_ppBenefit7": {
         "message": "Веома сте племенити! Ако се икада сретнемо почастићу вас пивом (да, пиво је важно)"
@@ -227,7 +227,7 @@
         "message": "Можете именовати функцију коју желите да реализујемо и ја ћу је остварити! (само немојте тражити немогуће :P)"
     },
     "editThis_ppBenefit4": {
-        "message": "Можете именовати грешку која вас нервира у EditThisCookie и ја ћу поправити то супер-брзо!"
+        "message": "Можете именовати грешку која вас нервира у kkb-down и ја ћу поправити то супер-брзо!"
     },
     "editThis_ppBenefit3": {
         "message": "Примићете поруку захвалности"
@@ -356,7 +356,7 @@
         "message": "Рекламе"
     },
     "editThis_support_etc": {
-        "message": "Подржи EditThisCookie"
+        "message": "Подржи kkb-down"
     },
     "editThis_getting_started": {
         "message": "Први кораци"
@@ -390,8 +390,8 @@
         "message": "Откажи"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Прегледај изворни код EditThisCookie на $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Прегледај изворни код kkb-down на $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Претрага"

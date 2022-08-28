@@ -21,7 +21,7 @@
         "message": "Хвилини"
     },
     "editThis_Rate_ETC": {
-        "message": "Оцінити EditThisCookie"
+        "message": "Оцінити kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Якщо ти хочеш програмно видаляти кукі кожного разу, коли він створюється, додай фільтр і це більше не заважатиме тобі"
@@ -60,13 +60,13 @@
         "message": "Заблокувати та видалити всі"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Якщо вам подобається EditThisCookie, залиште оцінку у Веб магазині Хром"
+        "message": "Якщо вам подобається kkb-down, залиште оцінку у Веб магазині Хром"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Показувати ім'я домену перед іменем кукі"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Ти можеш відправити пожертву через:"
     },
     "editThis_description": {
-        "message": "EditThisCookie це менеджер файлів кукі. Ти можеш додавати, видаляти, редагувати, шукати, захищати та блокувати кукі!"
+        "message": "kkb-down це менеджер файлів кукі. Ти можеш додавати, видаляти, редагувати, шукати, захищати та блокувати кукі!"
     },
     "editThis_cookiesModified": {
         "message": "Кукі модифіковано"
@@ -215,7 +215,7 @@
         "message": "Євангеліє від Літаючого Макаронного Монстра"
     },
     "editThis_timesUsed": {
-        "message": "Ти використовував 'EditThisCookie' $1 разів"
+        "message": "Ти використовував 'kkb-down' $1 разів"
     },
     "editThis_ppBenefit7": {
         "message": "Ти надзвичайно щедрий! Якщо ми колись зустрінемось з тобою, з мене пиво (Так, пиво це важливо)"
@@ -227,7 +227,7 @@
         "message": "Ти можеш назвати будь-яку функцію для розширення і я обовязково додам її в новій версії! (Тільки не проси неможливого :P )"
     },
     "editThis_ppBenefit4": {
-        "message": "Ти можеш вказати на помилку, що заважає тобі у EditThisCookie і я виправлю її супер-швидко!"
+        "message": "Ти можеш вказати на помилку, що заважає тобі у kkb-down і я виправлю її супер-швидко!"
     },
     "editThis_ppBenefit3": {
         "message": "Ти отримаєш лист із подякою"
@@ -356,7 +356,7 @@
         "message": "Оголошення"
     },
     "editThis_support_etc": {
-        "message": "Підтримати EditThisCookie"
+        "message": "Підтримати kkb-down"
     },
     "editThis_getting_started": {
         "message": "Приступаючи до роботи"
@@ -390,8 +390,8 @@
         "message": "Скасувати"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Перевірити вихідний код EditThisCookie's на $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Перевірити вихідний код kkb-down's на $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Шукати"

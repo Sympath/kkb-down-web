@@ -21,7 +21,7 @@
         "message": "Minute"
     },
     "editThis_Rate_ETC": {
-        "message": "Evalueaza EditThisCookie"
+        "message": "Evalueaza kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Daca vrei sa stergi un anumit Cookie de fiecare data cand este creat, adauga un filtru pentru a nu mai primi notificari de fiecare data"
@@ -60,13 +60,13 @@
         "message": "Blochează-le şi şterge-le pe toate"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Daca iti place EditThisCookie, da-i un rating pe Chrome Web Store"
+        "message": "Daca iti place kkb-down, da-i un rating pe Chrome Web Store"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Afiseaza Domeniul inaintea Numelui cookie-ului"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Puteti trimite donatii la:"
     },
     "editThis_description": {
-        "message": "EditThisCookie este un manager de cookie-uri. Poti adauga, sterge, edita, cauta, proteja şi bloca cookie-uri!"
+        "message": "kkb-down este un manager de cookie-uri. Poti adauga, sterge, edita, cauta, proteja şi bloca cookie-uri!"
     },
     "editThis_cookiesModified": {
         "message": "Cookie-urile au fost modificate"
@@ -206,7 +206,7 @@
         "message": "Tip Sesiune"
     },
     "editThis_Show_ContextMenu": {
-        "message": "Afiseaza Iconita \"EditThisCookie\" "
+        "message": "Afiseaza Iconita \"kkb-down\" "
     },
     "editThis_Show_Alerts": {
         "message": "Cere confirmare pentru fiecare modificare"
@@ -215,7 +215,7 @@
         "message": "Legenda Monstrului Spaghetelor Zburatoare"
     },
     "editThis_timesUsed": {
-        "message": "Ai folosit 'EditThisCookie' de $1 de ori"
+        "message": "Ai folosit 'kkb-down' de $1 de ori"
     },
     "editThis_ppBenefit7": {
         "message": "Eşti tare generos! Dacă ne întâlnim vreodată îţi fac cinste cu câteva beri (hei, berea e importantă - mâncarea-i fudulie / bătura-i temelie)"
@@ -227,7 +227,7 @@
         "message": "Zi o funcţionalitate pe care o vrei şi o implementez! (numa' nu cere imposibilul :P )"
     },
     "editThis_ppBenefit4": {
-        "message": "Spune-ne ce eroare ( Bug ) te deranjeaza la EditThisCookie si o rezolvam foarte repede !"
+        "message": "Spune-ne ce eroare ( Bug ) te deranjeaza la kkb-down si o rezolvam foarte repede !"
     },
     "editThis_ppBenefit3": {
         "message": "O să primeşti un e-mail de mulţtumire"
@@ -356,7 +356,7 @@
         "message": "Reclame"
     },
     "editThis_support_etc": {
-        "message": "Ajută EditThisCookie"
+        "message": "Ajută kkb-down"
     },
     "editThis_getting_started": {
         "message": "Informatii pentru Incepatori"
@@ -390,8 +390,8 @@
         "message": "Anuleaza"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Ai codul sursă al EditThisCookie pentru $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Ai codul sursă al kkb-down pentru $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Cauta"

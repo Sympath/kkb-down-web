@@ -21,7 +21,7 @@
         "message": "Minutid"
     },
     "editThis_Rate_ETC": {
-        "message": "Hinda EditThisCookie-d"
+        "message": "Hinda kkb-down-d"
     },
     "editThis_Blocked_Def": {
         "message": "Kui soovite küpsise tekkimisel automaatset kustutamist siis lisage filter ning oletegi küpsisest vaba"
@@ -60,13 +60,13 @@
         "message": "Keela ja kustuta kõik"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Kui olete EditThisCookiega rahul siis hinnake seda Chrome´i veebipoes"
+        "message": "Kui olete kkb-downga rahul siis hinnake seda Chrome´i veebipoes"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Kuva küpsise nime ees domeen"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Saate annetusi saata:"
     },
     "editThis_description": {
-        "message": "EditThisCookie on virtuaalse küpsise haldur. Saate küpsiseid lisada, kustutada, otsida, kaitsta ja keelata!"
+        "message": "kkb-down on virtuaalse küpsise haldur. Saate küpsiseid lisada, kustutada, otsida, kaitsta ja keelata!"
     },
     "editThis_cookiesModified": {
         "message": "Küpsised kohandatud"
@@ -215,7 +215,7 @@
         "message": "The Gospel of the Flying Spaghetti Monster"
     },
     "editThis_timesUsed": {
-        "message": "Olete EditThisCookiet kasutanud $1 korda"
+        "message": "Olete kkb-downt kasutanud $1 korda"
     },
     "editThis_ppBenefit7": {
         "message": "Olete väga lahke! Kui kunagi kohtume siis teen Teile paar õlle välja (õlu on ju tähtis, eks)"
@@ -227,7 +227,7 @@
         "message": "Saate soovitada uusi funktsioone ja ma teen need reaalseks! (ärge ainult küsige teostamatut :P)"
     },
     "editThis_ppBenefit4": {
-        "message": "Andke kõikidest häirivatest EditThisCookie vigadest teada ja ma parandan need ülikiirelt!"
+        "message": "Andke kõikidest häirivatest kkb-down vigadest teada ja ma parandan need ülikiirelt!"
     },
     "editThis_ppBenefit3": {
         "message": "Saate meilikasti tänukirja"
@@ -356,7 +356,7 @@
         "message": "Reklaamid"
     },
     "editThis_support_etc": {
-        "message": "Toetage EditThisCookiet"
+        "message": "Toetage kkb-downt"
     },
     "editThis_getting_started": {
         "message": "Esmatutvus"
@@ -390,8 +390,8 @@
         "message": "Tühista"
     },
     "editThis_Source_Code_Intro": {
-        "message": "EditThisCookie lähtekoodi leiate siit: $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "kkb-down lähtekoodi leiate siit: $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Otsi"

@@ -21,7 +21,7 @@
         "message": "分鐘"
     },
     "editThis_Rate_ETC": {
-        "message": "為 EditThisCookie 評分"
+        "message": "為 kkb-down 評分"
     },
     "editThis_Blocked_Def": {
         "message": "如果您想在 cookie 建立時就刪除掉，建立一個篩選器。它將不再打擾您。"
@@ -60,13 +60,13 @@
         "message": "全部封鎖並刪除"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "如果您喜歡 EditThisCookie，請在 Chrome 線上應用程式商店留下評分"
+        "message": "如果您喜歡 kkb-down，請在 Chrome 線上應用程式商店留下評分"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "在 cookie 名稱前顯示網域名稱"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "您可以把捐款送到："
     },
     "editThis_description": {
-        "message": "EditThisCookie 是一個 cookie 管理器。您可以增加、刪除、修改、搜尋、保護和封鎖 cookies！"
+        "message": "kkb-down 是一個 cookie 管理器。您可以增加、刪除、修改、搜尋、保護和封鎖 cookies！"
     },
     "editThis_cookiesModified": {
         "message": "Cookies modified"
@@ -215,7 +215,7 @@
         "message": "The Gospel of the Flying Spaghetti Monster"
     },
     "editThis_timesUsed": {
-        "message": "您已使用 'EditThisCookie' $1 次"
+        "message": "您已使用 'kkb-down' $1 次"
     },
     "editThis_ppBenefit7": {
         "message": "You are very generous! If we ever meet I'll get you a few beers (hey, beer is important)"
@@ -356,7 +356,7 @@
         "message": "Advertisements"
     },
     "editThis_support_etc": {
-        "message": "支持 EditThisCookie"
+        "message": "支持 kkb-down"
     },
     "editThis_getting_started": {
         "message": "開始使用"
@@ -390,8 +390,8 @@
         "message": "取消"
     },
     "editThis_Source_Code_Intro": {
-        "message": "在 $1 上檢視 EditThisCookie 的原始碼",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "在 $1 上檢視 kkb-down 的原始碼",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "搜尋"

@@ -21,7 +21,7 @@
         "message": "Minuty"
     },
     "editThis_Rate_ETC": {
-        "message": "Ohodnotit EditThisCookie"
+        "message": "Ohodnotit kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Pokud chcete programově odstranit cookie při každém jejím vytvoření, přidejte filtr a o nic víc se nestarejte"
@@ -60,13 +60,13 @@
         "message": "Blokovat a smazat vše"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "V případě, že se Vám líbí EditThisCookie, ohodnoďte jej na Chrome Web Store."
+        "message": "V případě, že se Vám líbí kkb-down, ohodnoďte jej na Chrome Web Store."
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Zobrazit doménu před jménem cookie"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Příspěvek můžete poslat na:"
     },
     "editThis_description": {
-        "message": "EditThisCookie je manažer cookies. Můžete přidávat, mazat, upravovat, hledat, chránit a blokovat cookies!"
+        "message": "kkb-down je manažer cookies. Můžete přidávat, mazat, upravovat, hledat, chránit a blokovat cookies!"
     },
     "editThis_cookiesModified": {
         "message": "Cookie upraveny"
@@ -215,7 +215,7 @@
         "message": "Svatá pravda příšery létajících špaget."
     },
     "editThis_timesUsed": {
-        "message": "EditThisCookie použito $1 krát"
+        "message": "kkb-down použito $1 krát"
     },
     "editThis_ppBenefit7": {
         "message": "Jste velmi štědrý. Pokud se někdy potkáme, dáme si spolu pár piv (hej, pivo je důležité)"
@@ -227,7 +227,7 @@
         "message": "Můžete si říct jakoukoliv funkci kterou chcete implementovat a já ji udělám! (jen nežádejte nemožné :P )"
     },
     "editThis_ppBenefit4": {
-        "message": "Můžete vyjmenovat chyby pro EditThisCookie a já jej velmi rychle opravím"
+        "message": "Můžete vyjmenovat chyby pro kkb-down a já jej velmi rychle opravím"
     },
     "editThis_ppBenefit3": {
         "message": "Obdržíte emailovou zprávu s poděkováním"
@@ -356,7 +356,7 @@
         "message": "Reklama"
     },
     "editThis_support_etc": {
-        "message": "Podpořte EditThisCookie"
+        "message": "Podpořte kkb-down"
     },
     "editThis_getting_started": {
         "message": "Začínáme"
@@ -390,8 +390,8 @@
         "message": "Zrušit"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Podívejte se na zdrojový kód EditThisCookie za $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Podívejte se na zdrojový kód kkb-down za $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Hledat"

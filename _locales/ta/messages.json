@@ -66,7 +66,7 @@
         "message": "டொமைனை குக்கீயின் பெயர் முன்பு  காட்டு"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -391,7 +391,7 @@
     },
     "editThis_Source_Code_Intro": {
         "message": "$1 யில் எடிட்திஸ்குக்கியின் மூல குறியீட்டை பாருங்கள்",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Search"

@@ -21,7 +21,7 @@
         "message": "Minuuttia"
     },
     "editThis_Rate_ETC": {
-        "message": "Arvostele EditThisCookie"
+        "message": "Arvostele kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Jos haluat automaattisesti poistaa tietyn evästeen aina kun se luodaan, lisää suodatin, jolloin se ei häiritse sinua enää."
@@ -60,13 +60,13 @@
         "message": "Estä ja poista kaikki"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Jos pidät EditThisCookie, jätä siitä arvostelu Chrome Web Storeen klikkaamalla tästä!"
+        "message": "Jos pidät kkb-down, jätä siitä arvostelu Chrome Web Storeen klikkaamalla tästä!"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Näytä verkkotunnus ennen evästeen nimeä"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Voit lähettää lahjoituksesi osoitteeseen:"
     },
     "editThis_description": {
-        "message": "EditThisCookie on evästemuokkain. Voit lisätä, poistaa, muokata, hakea, suojata ja estää evästeitä!"
+        "message": "kkb-down on evästemuokkain. Voit lisätä, poistaa, muokata, hakea, suojata ja estää evästeitä!"
     },
     "editThis_cookiesModified": {
         "message": "Evästeitä muokattu"
@@ -215,7 +215,7 @@
         "message": "Lentävän spagettihirviön gospel"
     },
     "editThis_timesUsed": {
-        "message": "Olet käyttänyt EditThisCookie $1 kertaa."
+        "message": "Olet käyttänyt kkb-down $1 kertaa."
     },
     "editThis_ppBenefit7": {
         "message": "Olet erittäin antelias! Jos tapaamme koskaan, tarjoan sinulle pari huurteista. (Hei, kalja on tärkeää.)"
@@ -227,7 +227,7 @@
         "message": "Voit nimetä ominaisuuden, jonka haluat toteutettavan, ja teen siitä totta! (Ethän vain pyydä mahdottomia. :P)"
     },
     "editThis_ppBenefit4": {
-        "message": "Voit valita minkätahansa ärsyttävän bugin, joka ärsyttää sinua EditThisCookie, ja korjaan sen supernopeasti!"
+        "message": "Voit valita minkätahansa ärsyttävän bugin, joka ärsyttää sinua kkb-down, ja korjaan sen supernopeasti!"
     },
     "editThis_ppBenefit3": {
         "message": "Saat kiitoksen sähköpostiisi."
@@ -356,7 +356,7 @@
         "message": "Mainokset"
     },
     "editThis_support_etc": {
-        "message": "Tue EditThisCookie"
+        "message": "Tue kkb-down"
     },
     "editThis_getting_started": {
         "message": "Aloitus"
@@ -390,8 +390,8 @@
         "message": "Peruuta"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Tutustu EditThisCookie lähdekoodiin: $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Tutustu kkb-down lähdekoodiin: $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Etsi"

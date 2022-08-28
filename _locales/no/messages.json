@@ -21,7 +21,7 @@
         "message": "Minutter"
     },
     "editThis_Rate_ETC": {
-        "message": "Vurdér EditThisCookie"
+        "message": "Vurdér kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Dersom du ønsker å programmatisk slette en informasjonskapsel hver gang den lages, opprett et filter så vil den ikke plage deg mer"
@@ -60,13 +60,13 @@
         "message": "Blokker og slett alle"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Dersom du liker EditThisCookie, legg igjen en vurdering i Chrome Web Store"
+        "message": "Dersom du liker kkb-down, legg igjen en vurdering i Chrome Web Store"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Vis domenet før informasjonskapslens navn"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Du kan sende donasjoner til:"
     },
     "editThis_description": {
-        "message": "EditThisCookie er en informasjonskapselbehandler.Du kan legge til,slette,redigere,søke,beskytte og blokkere informasjonskapsler!"
+        "message": "kkb-down er en informasjonskapselbehandler.Du kan legge til,slette,redigere,søke,beskytte og blokkere informasjonskapsler!"
     },
     "editThis_cookiesModified": {
         "message": "Informasjonskaplser endret"
@@ -215,7 +215,7 @@
         "message": "Det flygende spaghettimonsters evangelium"
     },
     "editThis_timesUsed": {
-        "message": "Du har brukt EditThisCookie $1 ganger"
+        "message": "Du har brukt kkb-down $1 ganger"
     },
     "editThis_ppBenefit7": {
         "message": "Du er veldig generøs! Dersom vi noen gang møtes skal jeg spandere et par øl (hey, øl er viktig)"
@@ -227,7 +227,7 @@
         "message": "Du kan nevne en funksjon du ønsker implementert, og jeg skal oppfylle det! (Bare ikke spør om det umulige :P)"
     },
     "editThis_ppBenefit4": {
-        "message": "Du kan nevne hvilken feil som irriterer deg i EditThisCookie og jeg skal fikse det superfort!"
+        "message": "Du kan nevne hvilken feil som irriterer deg i kkb-down og jeg skal fikse det superfort!"
     },
     "editThis_ppBenefit3": {
         "message": "Du vil motta en takke-epost"
@@ -356,7 +356,7 @@
         "message": "Annonser"
     },
     "editThis_support_etc": {
-        "message": "Støtt EditThisCookie"
+        "message": "Støtt kkb-down"
     },
     "editThis_getting_started": {
         "message": "Kom i gang"
@@ -390,8 +390,8 @@
         "message": "Avbryt"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Sjekk ut EditThisCookie sin kildekode på $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Sjekk ut kkb-down sin kildekode på $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Søk"

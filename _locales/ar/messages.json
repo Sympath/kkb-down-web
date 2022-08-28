@@ -21,7 +21,7 @@
         "message": "دقائق"
     },
     "editThis_Rate_ETC": {
-        "message": "قيّم ُEditThisCookie"
+        "message": "قيّم ُkkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "إذا كنت تريد حذف أوتوماتيكيا كوكي في كل مرة يتم إنشاؤه أضف فيلتر و لن تزعجك بعد الآن\n"
@@ -66,7 +66,7 @@
         "message": "أظهر الDomain قبل اسم الكوكيز"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "يمكنك إرسال التبرعات إلى"
     },
     "editThis_description": {
-        "message": "EditThisCookie هو برنامج للتحكم في الكوكيز. يمكنك إضافة, مسح, إعداد, بحث, حماية و منع الكوكيز"
+        "message": "kkb-down هو برنامج للتحكم في الكوكيز. يمكنك إضافة, مسح, إعداد, بحث, حماية و منع الكوكيز"
     },
     "editThis_cookiesModified": {
         "message": "الكوكيز المعدلة"
@@ -215,7 +215,7 @@
         "message": "إنجيل شبح الأسباجتي الطائر"
     },
     "editThis_timesUsed": {
-        "message": "لقد استخدمت \"EditThisCookie ه\" $1 مرة"
+        "message": "لقد استخدمت \"kkb-down ه\" $1 مرة"
     },
     "editThis_ppBenefit7": {
         "message": "انت كريم جداً ! إذا تقابلنا في يوم ما سوف اشتري لك بعضاً من الجعة ( مهلاً, الجعة مهمة )"
@@ -356,7 +356,7 @@
         "message": "الإعلانات"
     },
     "editThis_support_etc": {
-        "message": "دعم EditThisCookie"
+        "message": "دعم kkb-down"
     },
     "editThis_getting_started": {
         "message": "الأستعداد"
@@ -390,8 +390,8 @@
         "message": "الغاء"
     },
     "editThis_Source_Code_Intro": {
-        "message": "تحقق من التعليمات البرمجية المصدر في EditThisCookie عند  $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "تحقق من التعليمات البرمجية المصدر في kkb-down عند  $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "البحث"

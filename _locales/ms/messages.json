@@ -21,7 +21,7 @@
         "message": "Minit"
     },
     "editThis_Rate_ETC": {
-        "message": "Rate EditThisCookie"
+        "message": "Rate kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Jika anda hendak padam cookie secara programmatik di setiap masa cookie dibuat tambahkan tapisan dan ia tidak akan mengganggun anda lagi"
@@ -60,13 +60,13 @@
         "message": "Sekat dan padam semua"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "Jika anda suka EditThisCookie, tinggalkan penarafan anda di Chrome Web Store"
+        "message": "Jika anda suka kkb-down, tinggalkan penarafan anda di Chrome Web Store"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Tunjukkan domain sebelum nama cookie ini"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Anda boleh menghantar derma kepada:"
     },
     "editThis_description": {
-        "message": "EditThisCookie adalah pengurus cookie. Anda boleh tambah, padam, sunting, cari, lindungi dan halang cookie!"
+        "message": "kkb-down adalah pengurus cookie. Anda boleh tambah, padam, sunting, cari, lindungi dan halang cookie!"
     },
     "editThis_cookiesModified": {
         "message": "Cookie diubahsuai"
@@ -215,7 +215,7 @@
         "message": "The Gospel of the Flying Spaghetti Monster"
     },
     "editThis_timesUsed": {
-        "message": "Anda telah menggunakan 'EditThisCookie' $1 kali"
+        "message": "Anda telah menggunakan 'kkb-down' $1 kali"
     },
     "editThis_ppBenefit7": {
         "message": "Anda sangat bermurah hati! Jika kita pernah berjumpa saya akan bawakan anda beberapa bir (hei, bir itu penting)"
@@ -227,7 +227,7 @@
         "message": "Anda dialu-alukan menampilkan ciri yang anda mahu dilaksanakan dan saya akan pertimbangkannya! (jangan tanya jika ia mustahil :P )"
     },
     "editThis_ppBenefit4": {
-        "message": "Anda boleh memberitahu ralat yang mengganggu anda dalam EditThisCookie dan saya akan perbaiki secepat mungkin!"
+        "message": "Anda boleh memberitahu ralat yang mengganggu anda dalam kkb-down dan saya akan perbaiki secepat mungkin!"
     },
     "editThis_ppBenefit3": {
         "message": "Anda akan menerima satu emel ucapan terima kasih"
@@ -356,7 +356,7 @@
         "message": "Pengiklanan"
     },
     "editThis_support_etc": {
-        "message": "Sokong EditThisCookie"
+        "message": "Sokong kkb-down"
     },
     "editThis_getting_started": {
         "message": "Untuk permulaan"
@@ -390,8 +390,8 @@
         "message": "Batal"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Semak kod sumber EditThisCookie pada $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Semak kod sumber kkb-down pada $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Cari"

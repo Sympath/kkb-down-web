@@ -21,7 +21,7 @@
         "message": "Phút"
     },
     "editThis_Rate_ETC": {
-        "message": "Đánh giá EditThisCookie"
+        "message": "Đánh giá kkb-down"
     },
     "editThis_Blocked_Def": {
         "message": "Nếu bạn muốn xóa cookie một cách tự động mỗi khi nó được tạo, hãy thêm bộ lọc để chúng không bao giờ làm phiền bạn nữa"
@@ -66,7 +66,7 @@
         "message": "Hiện domain trước tên của cookie"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "Bạn có thể đóng góp tới:"
     },
     "editThis_description": {
-        "message": "EditThisCookie là chương trình quản lý cookie. Bạn có thể thêm, xóa, chỉnh sửa, tìm kiếm, bảo vệ và chặn cookies trên các website!"
+        "message": "kkb-down là chương trình quản lý cookie. Bạn có thể thêm, xóa, chỉnh sửa, tìm kiếm, bảo vệ và chặn cookies trên các website!"
     },
     "editThis_cookiesModified": {
         "message": "Cookie đã được sửa"
@@ -215,7 +215,7 @@
         "message": "The Gospel of the Flying Spaghetti Monster (tên sách)"
     },
     "editThis_timesUsed": {
-        "message": "Bạn đã sử dụng 'EditThisCookie' $1 lần"
+        "message": "Bạn đã sử dụng 'kkb-down' $1 lần"
     },
     "editThis_ppBenefit7": {
         "message": "Bạn thật hào phóng! Nếu chúng ta có duyên gặp nhau, tôi sẽ mời bạn chút bia (hey, beer hơi bị quan trọng đấy)"
@@ -227,7 +227,7 @@
         "message": "Bạn có thể đặt tên chức năng bạn muốn và tôi sẽ biến nó thành hiện thực! (đừng yêu cầu chức năng không thể làm :P)"
     },
     "editThis_ppBenefit4": {
-        "message": "Bạn có thể đặt tên bất kỳ lỗi nào trong EditThisCookie làm cho bạn thấy khó chịu và Tôi sẽ sửa nó với tốc độ cực-kỳ-nhanh"
+        "message": "Bạn có thể đặt tên bất kỳ lỗi nào trong kkb-down làm cho bạn thấy khó chịu và Tôi sẽ sửa nó với tốc độ cực-kỳ-nhanh"
     },
     "editThis_ppBenefit3": {
         "message": "Bạn sẽ nhận được một email cảm ơn"
@@ -356,7 +356,7 @@
         "message": "Quảng cáo"
     },
     "editThis_support_etc": {
-        "message": "Hãy ủng hộ EditThisCookie"
+        "message": "Hãy ủng hộ kkb-down"
     },
     "editThis_getting_started": {
         "message": "Hãy cùng bắt đầu"
@@ -390,8 +390,8 @@
         "message": "Hoãn lại"
     },
     "editThis_Source_Code_Intro": {
-        "message": "Xem mã nguồn của EditThisCookie chỉ với $1",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "Xem mã nguồn của kkb-down chỉ với $1",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "Tím kiếm"

@@ -9,13 +9,13 @@
         "128": "img/icon.png"
     },
     "default_locale": "en",
-    "homepage_url": "http://www.editthiscookie.com/",
+    "homepage_url": "http://www.kkb-down.com/",
     "browser_action": {
         "default_icon": {
             "19": "img/icon.png",
             "38": "img/icon.png"
         },
-        "default_title": "EditThisCookie",
+        "default_title": "kkb-down",
         "default_popup": "popup.html"
     },
     "devtools_page": "/devtools/devtools-page.html",
@@ -31,6 +31,17 @@
             "/js/ga.js"
         ]
     },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "js/content-script.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
     "options_page": "options_main_page.html",
     "permissions": [
         "tabs",

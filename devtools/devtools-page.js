@@ -1,4 +1,4 @@
 (function () {
     if (preferences.showDevToolsPanel)
-        chrome.devtools.panels.create('EditThisCookie', 'img/icon.png', 'devtools/panel.html');
+        chrome.devtools.panels.create('kkb-down', 'img/icon.png', 'devtools/panel.html');
 })();

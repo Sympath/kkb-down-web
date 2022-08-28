@@ -21,7 +21,7 @@
         "message": "分"
     },
     "editThis_Rate_ETC": {
-        "message": "EditThisCookieを評価"
+        "message": "kkb-downを評価"
     },
     "editThis_Blocked_Def": {
         "message": "作成されたCookieをその都度、自動的に削除したい場合は、フィルターを追加することで削除できます"
@@ -60,13 +60,13 @@
         "message": "フラグを立ててすべて削除"
     },
     "editThis_Rate_Us_Intro": {
-        "message": "もしEditThisCookieを気に入っていただけたなら、Chrome Web Storeでの評価をお願いします"
+        "message": "もしkkb-downを気に入っていただけたなら、Chrome Web Storeでの評価をお願いします"
     },
     "editThis_Show_Domain_Before_Name": {
         "message": "Show the domain before the cookie's name"
     },
     "editThis_paypalSupportCharity": {
-        "message": "EditThisCookie is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
+        "message": "kkb-down is free to use but please donate now with $1. All proceeds go to charities! :)<br><br>Move the slider to change the amount",
         "description": "It will read: Donate now with PayPal"
     },
     "editThis_cookiesProtected": {
@@ -133,7 +133,7 @@
         "message": "こちらから寄付をお願いします。"
     },
     "editThis_description": {
-        "message": "EditThisCookieはCookie管理ソフトです。Cookieを追加、削除、編集、検索、保護、そしてブロックすることができます！"
+        "message": "kkb-downはCookie管理ソフトです。Cookieを追加、削除、編集、検索、保護、そしてブロックすることができます！"
     },
     "editThis_cookiesModified": {
         "message": "Cookieが修正されました"
@@ -215,7 +215,7 @@
         "message": "空飛ぶスパゲッティ・モンスターの福音書"
     },
     "editThis_timesUsed": {
-        "message": "EditThisCookie を $1 回使用しています"
+        "message": "kkb-down を $1 回使用しています"
     },
     "editThis_ppBenefit7": {
         "message": "非常に寛大なお方ですね！もしあなたにお会いする機会があればビールをごちそうします (ビールは重要です)"
@@ -227,7 +227,7 @@
         "message": "You can name a feature you want to be implemented and I'll make it true! (just don't ask for the impossible :P )"
     },
     "editThis_ppBenefit4": {
-        "message": "You can name any bug that annoys you in EditThisCookie and I'll fix it super-fast!"
+        "message": "You can name any bug that annoys you in kkb-down and I'll fix it super-fast!"
     },
     "editThis_ppBenefit3": {
         "message": "You'll receive a thank you email"
@@ -356,7 +356,7 @@
         "message": "広告"
     },
     "editThis_support_etc": {
-        "message": "EditThisCookie を支援"
+        "message": "kkb-down を支援"
     },
     "editThis_getting_started": {
         "message": "はじめに"
@@ -390,8 +390,8 @@
         "message": "キャンセル"
     },
     "editThis_Source_Code_Intro": {
-        "message": "$1 で EditThisCookie のソースコードを確認してください",
-        "description": "It will read: Check EditThisCookie's source code on GitHub"
+        "message": "$1 で kkb-down のソースコードを確認してください",
+        "description": "It will read: Check kkb-down's source code on GitHub"
     },
     "editThis_search": {
         "message": "検索"
