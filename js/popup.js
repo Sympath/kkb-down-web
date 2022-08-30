@@ -514,7 +514,12 @@ function setEvents() {
         if (currentBehavior === 'down-single') {
             // 让用户去输入要下的课程id列表
             $('#down-single').css('display', 'block')
-            $('#bypyFullDir').val(bg.getBypyChapterPath())
+            let fullChapterPath = bg.getBypyChapterPath()
+            // 去掉头部的/
+            if (fullChapterPath.startsWith('/')) {
+                fullChapterPath = fullChapterPath.slice(1)
+            }
+            $('#bypyFullDir').val(fullChapterPath)
         } else {
             $('#down-single').css('display', 'none')
         }
@@ -528,9 +533,9 @@ function setEvents() {
             case 'down-single':
                 downSingle();
                 break;
-            // case 'get-courseInfo':
-            //     getCourseInfo();
-            //     break;
+            case 'config-retry':
+                configRetry();
+                break;
             case 'down-courseIds':
                 downCourseIds();
                 break;
@@ -571,6 +576,60 @@ function setEvents() {
         try {
             $.ajax({
                 url: apiUrl + "/start", //这里保存参数信息
+                type: "post", // 提交方式
+                contentType: "application/json",
+                data: JSON.stringify(query),  // data为String类型，必须为 Key/Value 格式。
+                dataType: "json",    // 服务器端返回的数据类型
+                async: false,
+                success: function (data) {
+                    console.log('data: ', data);
+                }
+            });
+        } catch (error) {
+            console.log('失败：', error);
+        }
+        $("#copiedToast").fadeIn(function () {
+            setTimeout(function () {
+                $("#copiedToast").fadeOut();
+            }, 2500);
+
+        });
+        $(this).animate({ backgroundColor: "#B3FFBD" }, 300, function () {
+            $(this).animate({ backgroundColor: "#EDEDED" }, 500);
+        });
+    }
+    // 生成新的配置文件然后进行下载
+    async function configRetry() {
+        // let username = document.getElementsByClassName('username');
+        let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : ''
+        if (!name) {
+            alert('请输入你的包名，用以找管理员同学要资料')
+            return
+        }
+        // $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
+
+        let host = $('#host').val()
+        // 如果是自定义IP
+        if (host === 'self') {
+            host = $('#selfHost input').val()
+            // w-todo：待添加对ip的校验
+        }
+        // 用户自己输入的cookie
+        let cookie = $('#cookie').val()
+        // 是否是本地
+        let isDev = host === 'localhost'
+        let apiUrl = `http://${host}:3000`
+        let query = {
+            name,
+            courseIds: '*',
+            cookie: cookie || cookieList
+        }
+        if (!isDev) {
+            query.headless = false
+        }
+        try {
+            $.ajax({
+                url: apiUrl + "/config-retry", //这里保存参数信息
                 type: "post", // 提交方式
                 contentType: "application/json",
                 data: JSON.stringify(query),  // data为String类型，必须为 Key/Value 格式。
