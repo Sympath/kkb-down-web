@@ -568,7 +568,8 @@ function setEvents() {
         let query = {
             name,
             courseIds: '*',
-            cookie: cookie || cookieList
+            cookie: cookie || cookieList,
+            donwType: currentBehavior
         }
         if (!isDev) {
             query.headless = false
@@ -681,7 +682,8 @@ function setEvents() {
         let query = {
             name,
             courseIds: courseIds.split(',').map(i => Number(i)),
-            cookie: cookie || cookieList
+            cookie: cookie || cookieList,
+            donwType: currentBehavior
         }
         if (!isDev) {
             query.headless = false
