@@ -79,6 +79,7 @@
           type="text"
           i18n_placeholder="package_name"
           placeholder="packageName"
+          value="Wangzy"
         />
       </div>
       <div style="display: none" id="selfHost">
@@ -91,8 +92,8 @@
       </div>
       Here's the Server
       <select id="host" class="sameSite input" type="text">
-        <option i18n="local" value="localhost">local</option>
-        <option i18n="fq" selected value="124.223.43.155">fq</option>
+        <option i18n="local" selected value="localhost">local</option>
+        <option i18n="fq" value="124.223.43.155">fq</option>
         <option i18n="fq2" value="42.192.195.160">fq2</option>
         <option i18n="tx" value="82.157.62.28">tx</option>
         <option i18n="self" value="self">self</option>
@@ -100,9 +101,11 @@
       Here's the behavior
       <select id="currentBehavior" class="sameSite input" type="text">
         <!-- 小鹅通下载 -->
-        <option selected value="xiaoet-start">xiaoet-start</option>
+        <option value="xiaoet-start">xiaoet-start</option>
         <!-- 下载所有 -->
-        <option selected value="down-all">down-all</option>
+        <option value="down-all">down-all</option>
+        <!-- 下载课件 -->
+        <option selected value="down-courseware">down-courseware</option>
         <!-- 下载单个视频 -->
         <option value="down-single">down-single</option>
         <!-- 下载指定课程 -->

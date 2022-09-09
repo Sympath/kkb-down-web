@@ -542,10 +542,68 @@ function setEvents() {
             case 'xiaoet-start':
                 xiaoetStart();
                 break;
+            case 'down-courseware':
+                downCourseware();
+                break;
 
             default:
                 break;
         }
+    }
+    // 小鹅通
+    async function downCourseware() {
+        // let username = document.getElementsByClassName('username');
+        let name = $('input', '#packageName').val() ? $('input', '#packageName').val() : ''
+        if (!name) {
+            alert('请输入你的包名，用以找管理员同学要资料')
+            return
+        }
+        // $('input', '#packageName').val() : 'default' + Math.random().toFixed(2) * 100;
+
+        let host = $('#host').val()
+        // 如果是自定义IP
+        if (host === 'self') {
+            host = $('#selfHost input').val()
+            // w-todo：待添加对ip的校验
+        }
+        // 用户自己输入的cookie
+        let cookie = $('#cookie').val()
+        // 是否是本地
+        let isDev = host === 'localhost'
+        let apiUrl = `http://${host}:3000`
+        let query = {
+            name,
+            courseIds: '*',
+            cookie: cookie || cookieList,
+            donwType: currentBehavior
+        }
+        if (!isDev) {
+            query.headless = false
+        }
+        try {
+            $.ajax({
+                url: apiUrl + "/down-courseware", //这里保存参数信息
+                type: "post", // 提交方式
+                contentType: "application/json",
+                data: JSON.stringify(query),  // data为String类型，必须为 Key/Value 格式。
+                dataType: "json",    // 服务器端返回的数据类型
+                async: false,
+                success: function (data) {
+                    console.log('data: ', data);
+                }
+            });
+        } catch (error) {
+            console.log('失败：', error);
+        }
+        $("#copiedToast").fadeIn(function () {
+            setTimeout(function () {
+                $("#copiedToast").fadeOut();
+            }, 2500);
+
+        });
+        $(this).animate({ backgroundColor: "#B3FFBD" }, 300, function () {
+            $(this).animate({ backgroundColor: "#EDEDED" }, 500);
+        });
     }
     // 小鹅通
     async function xiaoetStart() {
